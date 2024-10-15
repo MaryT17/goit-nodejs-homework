@@ -1,7 +1,6 @@
 import { Contact } from "../models/contactsModel.js";
 import { contactValidation, favoriteValidation } from "../validation/validation.js";
 
-
 const getAllContacts = async (_req, res, next) => {
 try {
     // const result = await listContacts();
